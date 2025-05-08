@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>English Class Library</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdf6e3;
+      color: #333;
+    }
+
+    header {
+      background-color: #0a2342;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+
+    .category {
+      margin-bottom: 40px;
+    }
+
+    .category h2 {
+      font-size: 1.4em;
+      color: #0a2342;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+
+    .card {
+      background-color: white;
+      padding: 15px 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 10px;
+      transition: transform 0.2s;
+      display: flex;
+      align-items: center;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+    }
+
+    .card i {
+      font-size: 1.2em;
+      color: #0a2342;
+      margin-right: 12px;
+    }
+
+    .card a {
+      text-decoration: none;
+      color: #0a2342;
+      font-weight: 500;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .card i {
+        margin-bottom: 5px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><i class="fas fa-book-reader"></i> English Class Library</h1>
+    <p>Organize & share your learning materials</p>
+  </header>
+
+  <div class="container">
+
+    <div class="category">
+      <h2><i class="fas fa-pen-fancy"></i> Grammar Lessons</h2>
+      <div class="card">
+        <i class="fas fa-file-pdf"></i>
+        <a href="files/grammar/present-simple.pdf" target="_blank">
+          Present Simple Worksheet – PDF
+        </a>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+</html>
